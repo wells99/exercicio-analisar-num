@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    
+    <section>
+        
+        <div>
+          Número (entre 1 e 100): <input type="number" name="numanalise" id="numeroanalise" min="1">
+          <input type="button" value="Adicionar" id="add" onclick="analisar()">  
+       
+          <br>
+          <br>
+          <select id="op" size="6"></select>
+              <option></option>
+          <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+
+        <div id="res"></div>
+
+    </section>
+
+    <footer>
+        <h3> &copy; Exercicio</h3>
+    </footer>
+    <script src="service.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background: rgb(138, 178, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: max-content;
+    width: 600px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+select{
+    width: 150px;
+}
